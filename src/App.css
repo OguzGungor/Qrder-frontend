@@ -1,0 +1,509 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/**********************************************************************
+*********************************************************************** 
+                              Login Page styles
+*********************************************************************** 
+ ***********************************************************************/
+ .RegisterMainPanel{
+  background-color: #c4a748d0;
+  border-radius: 25px;
+  padding:50px;
+  max-width: 1000px;
+ }
+.RegisterPanel{
+  
+  background-image: url("guru.png") ;
+  background-color: #00000000;
+  
+  background-size : cover;
+  background-repeat: no-repeat;
+  background-position: center;  
+  background-blend-mode: exclusion;
+  min-width : 300px
+  
+}
+
+
+
+/**********************************************************************
+*********************************************************************** 
+                              Login Page styles
+*********************************************************************** 
+ ***********************************************************************/
+
+.App::before {    
+  content:"";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/chilis-3-1588018662.jpg");   
+  width: 100%;
+  height: 100%; 
+  background-size : cover;
+  filter: blur(8px);
+}
+
+.App{
+  text-align: center;
+}
+
+.App-Header{
+  background: linear-gradient(60deg, #282c34e8 20%,   #c4a748d0 50%);  
+  justify-content: center;  
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;    
+  font-size: calc(10px + 2vmin);
+  min-height: 20vh;  
+  color: white;
+}
+
+
+.title{
+  
+  font-size: 100%;
+  color: #000000d0;
+
+}
+.title2{
+  display: flex;
+  position: absolute;
+  left: 210px;
+  top: 0%;
+  font-size: 100%;
+  color: #c4a748d0;
+
+}
+.title3{
+  line-height: 25px;
+  text-align: left;
+  display: flex;
+  position: absolute;
+  left: 210px;
+  top: 6%;
+  font-size: 50%;
+  color: #c4a748d0;
+
+}
+
+.title4{
+  margin-right : 10px;
+  background-color: #000000d0;
+  text-align: right;
+  display: flex;
+  position: absolute;
+  right: 210px;
+  top: 2%;
+  font-size: 100%;
+  color: #c4a748d0;
+
+}
+.title5{
+  margin-right : 10px;
+  text-align: right;
+  display: flex;
+  position: absolute;
+  right: 210px;
+  top: calc(2% + 105px);
+  font-size: 17px;
+  color: #000000d0;
+
+}
+
+
+.App-body {
+  
+  padding:40px;
+  height: 69vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #c4a748d0;
+}
+
+
+.Panel{
+  background-color: #282c34e8;
+  border-radius: 25px;
+  padding:50px;
+  max-width: 1000px;  
+  
+}
+
+
+.LoginPanel{
+  min-width : 400px;
+  
+  
+}
+
+.ButtonLayout{
+  padding-left:10px;
+}
+
+
+/*********************************************************************** 
+*********************************************************************** 
+                              Drawer  Styles 
+*********************************************************************** 
+***********************************************************************/
+
+.Drawer{
+  color:#c4a748d0
+}
+
+/*********************************************************************** 
+*********************************************************************** 
+                              Main Page  Styles 
+*********************************************************************** 
+***********************************************************************/
+
+
+.App-Main{
+  
+  padding-left:200px;
+  padding-right:200px;
+}
+
+.MainPanel::-webkit-scrollbar {
+  display: none;
+}
+
+.MainPanel{
+  background-image: url("pngguru.com (2).png") ;
+  background-size : 490px 490px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width : 1000px;
+  height: 490px;
+  overflow-y: scroll;
+  
+}
+
+/**************************************
+              Tab styles
+***************************************/
+
+.Tab-Length{
+  max-width: 500px;
+  border-radius: 25px;
+}
+
+.Tab-Color{
+  
+  background-color: #282c34e8;
+  color : #c4a748ef;   
+  border-radius: 25px;
+
+}
+
+.Indicator-Color{
+  background-color: #ffbb00ef;  
+  color: #ffbb00ef;
+}
+
+
+
+
+/**************************************
+              Order Panel styles
+***************************************/
+
+.Chart-header-specs{
+  background: linear-gradient(0deg, #c4a748ef 100%, #fb6161 100%); 
+}
+.Chart-header-specs2{
+  background: linear-gradient(0deg, #c4a748ef 100%, #fb6161 100%);   
+  min-width: 100%;
+}
+
+.Chart-header-specs3{
+  background: linear-gradient(0deg, #eee0b3ef 100%, #fb6161 100%); 
+}
+
+.OrderCell{
+  color:#ffda61;
+}
+
+
+
+/**************************************
+              Details Image Body
+***************************************/
+
+.BigImage{
+  background-color : #282c34e8;
+  position: relative;
+  border-radius: 25px;
+  border-color: #837032;
+  border-style:solid;
+  border-width: 10px;
+  padding:10px;
+  width:60%;
+  min-height:100px;  
+  justify-content: center;
+  display: flex;  
+  color : #000000;
+}
+
+/**************************************
+              Details Tag Body
+***************************************/
+
+.BigTag{
+  background-color : #837032;
+  position: relative;
+  border-radius: 25px;
+  border-color: #837032;
+  border-style:solid;
+  border-width: 10px;
+  padding:10px;
+  width:60%; 
+  justify-content: center;
+  display: flex;  
+  color : #000000;
+}
+
+.BigTag2::-webkit-scrollbar {
+  display: none;
+}
+
+.BigTag2{
+  background-color : #837032;
+  position: relative;
+  border-radius: 25px;
+  border-color: #837032;
+  border-style:solid;
+  border-width: 10px;
+  padding:10px;
+  width:60%; 
+  height:250px;
+  justify-content: center;
+  display: flex;  
+  color : #000000;
+  overflow-y: scroll;
+}
+
+.BigTag3::-webkit-scrollbar {
+  display: none;
+}
+
+.BigTag3{
+  background-color : #ffda6100;
+  position: relative;
+  border-radius: 25px;
+  border-color: #837032;
+  border-style:solid;
+  border-width: 10px;
+  padding:10px;
+  width:60%; 
+  height:40%;
+  justify-content: center;
+  display: flex;  
+  color : #000000;
+}
+
+
+.BigTag4::-webkit-scrollbar {
+  display: none;
+}
+
+.BigTag4{
+  background-color : #837032;
+  position: relative;
+  border-radius: 25px;
+  border-color: #837032;
+  border-style:solid;
+  border-width: 10px;
+  padding:10px;
+  width: 60%;
+  min-height:200px;
+  justify-content: center;
+  display: flex;  
+  color : #000000;
+}
+
+
+
+.BigMenu{
+  
+  min-width: 100%;
+}
+
+.BigMenu2::-webkit-scrollbar {
+  display: none;
+}
+.BigMenu2{
+  max-height: 100%;
+  min-width: 100%;
+}
+
+/**************************************
+              Grid layout
+***************************************/
+.GridElement{  
+  justify-content: center;
+  display: flex; 
+}
+
+.GridElement2{  
+  display: flex;   
+  justify-content: center;
+}
+.GridElement3{  
+  display: flex;   
+  justify-content: center;
+}
+/**************************************
+              Order Menu Container
+***************************************/
+
+.TableContainer::-webkit-scrollbar {
+  display: none;
+}
+.TableContainer{  
+  min-width: 100%;
+  max-Height : 300px; 
+}
+
+/**************************************
+              Table
+***************************************/
+
+.TablePanel{
+  margin-left: 10px;
+  margin-right: 10px;
+  min-height: 500px;
+}
+.Table{
+  position: relative;
+  border-radius: 25px;
+  border-color: #837032;
+  border-style:solid;
+  border-width: 10px;
+  padding:10px;
+  width:200px;
+  height:50px; 
+  
+  max-height:50px; 
+  justify-content: center;
+  display: flex;  
+  color : #000000;
+  font-size: 20px;
+}
+
+.TableContent{
+  width : 90%;
+  overflow-wrap: break-word;
+}
+
+/**************************************
+              Additional Components
+***************************************/
+
+.Select{
+  background :#ffda6100;
+  width : 100%;
+  height : 40px;  
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5%;
+  border-color: #ffda6100;  
+  color: #ffda61;
+}
+
+.Select2{
+  background :#ffda6100;
+  width : 50%;
+  height : 40px;  
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5%;
+  border-color: #ffda6100;  
+  color: #ffda61;
+}
+
+
+Option {
+  margin: 40px;
+  background: #282c34e8;
+  color: #ffda61;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);  
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.SelectLabel{
+  font-size: 20px;
+}
+
+/**************************************
+              Notifications
+***************************************/
+.Done{
+  position: absolute;
+  top :90%;
+  left:80%;  
+}
+
+.Payment{
+  position: absolute;
+  bottom:90%;
+  right:80%;
+}
+
+.Waiter{
+  position:absolute;
+  bottom:90%;
+  left:80%;
+}
+
+.Waiting{
+  
+  position:absolute;  
+  top:90%;
+  right: 80%;
+}
+
